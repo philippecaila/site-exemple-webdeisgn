@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html>
+
+
+
 <head>
 	<meta charset="utf-8">
 	<title>je vous ai compris</title>
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<header>
-	<h1>Je vous ai compris</h1>
-	<img src="black-and-white-clock-hand-890-819x550.jpg" height="40">
-	<h2>l'histoire autrement</h2>
-</header>
-	<nav>
-	<ul>
-		<li>Reines, Rois et dirigeants</li>
-		<li>Batailles</li>
-		<li>L'inconnu du coin</li>
-		<li>Le quiz du heros</li>
-	</ul>
-	</nav>		
+
+
+
+
 <body>
+	<header>
+		<h1>Je vous ai compris</h1>
+		<img src="IMAGES/clown-grinning-halloween-236.jpg" alt="le joker" height="400">
+		<h2>l'histoire autrement</h2>
+		<nav>
+			<ul>
+				<li><a href="reines.html">Reines, Rois et dirigeants</a></li>
+				<li><a href="Batailles.html">Batailles</a></li>
+				<li><a href="L'inconnu du coin.html">L'inconnu du coin</a></li>
+				<li><a href="Le quiz du héros.html">La quiz du héros</a></li>
+			</ul>
+		</nav>		
+	</header>
+
 	<section>
-		<h3>TITRE</h3>
 		<article>
-    	<img src="image" >
-   		 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<h3>TITRE</h3>
+    		<img src="IMAGES/agriculture-barrow-black-and-white-500-827x550.jpg" alt="charriot danns le far west" height="120px">
+   		 	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
    			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
    			 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
    			 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
    			 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
    			 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</article>
-	</section>
-	<section>
-		<h3>TITRE 2</h3>
 		<article>
-    	<img src="image" alt="some description">
-   		 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-   			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-   			 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-   			 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-   			 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-   			 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>TITRE 2</h3>
+	    	<img src="IMAGES/black-and-white-clock-hand-890-819x550.jpg" alt="horloge 12 heures 30" height="120px">
+	   		 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	   			 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	   			 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	   			 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	   			 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	   			 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</article>
 	</section>
-<aside>
-    <p>chercher un article</p>
-</aside>
+
+	<aside>
+		<!-- téléchargement direct d'une image sur le net, on aurait pu utiliser une fontawsome qui génère une image -->
+		<img src="http://telechargergifs.free.fr/gif-gifs/gif-etoile/gif-etoile-44.gif" height="40px">
+    	<!-- infra balise pour mettre en place une zone de recherche -->
+    	<p>Chercher un article</p>
+    	<i class="fa fa-search"></i>
+    	<form>
+    		<input>
+    		<input>
+    	</form>
+    	<p>Dernier tweet</p>
+    	<p>
+    	<a class="twitter-timeline" href="https://twitter.com/hashtag/histoire" data-widget-id="510782468983508994">Tweets #histoire</a>
+    	<!-- commentaire : widget twdeter pour afficher le hashtag 'histoire'-->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</p>
+	</aside>
 <footer>
+	<!-- Ressources ici : http://fortawesome.github.io/Font-Awesome/icon/twitter/ -->
 	<i class="fa fa-facebook"></i>
 	je veux m'inscrire à la newsletter
-	<i class="fa fa-twitter"></i>
+	<i class="fa fa-envelope-o"></i>
+	<i class="fa fa-twitter" ></i>
 </footer>
 </body>
 </html>
